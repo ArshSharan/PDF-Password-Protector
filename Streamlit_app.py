@@ -4,7 +4,8 @@ from io import BytesIO
 from streamlit_extras.stylable_container import stylable_container
 
 st.set_page_config(
-    page_title="🔒 PDF Password Protector",
+    page_icon="🔐",
+    page_title="PDF Password Protector",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
